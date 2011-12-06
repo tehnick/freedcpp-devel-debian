@@ -2,10 +2,14 @@ Source: freedcpp-unstable
 Section: net
 Priority: optional
 Maintainer: Boris Pek <tehnick-8@mail.ru>
-Build-Depends: debhelper (>= 6.0.4), cdbs (>= 0.4.27), scons (>= 0.96), libbz2-dev, libgtk2.0-dev, libglade2-dev, libssl-dev, pkg-config, libgnome2-dev, libnotify-dev, libboost-dev
+Build-Depends: debhelper (>= 6.0.4), cdbs (>= 0.4.27),
+ scons (>= 0.96), pkg-config,
+ libbz2-dev, libssl-dev,  libboost-dev,
+ libgtk2.0-dev, libglade2-dev,
+ libgnome2-dev, libnotify-dev
 Homepage: http://code.google.com/p/freedcpp/
-Vcs-Svn: http://freedcpp.googlecode.com/svn/trunk/
-Vcs-Browser: http://code.google.com/p/freedcpp/source/browse/
+Vcs-Git: git://github.com/tehnick/freedcpp-unstable-debian.git
+Vcs-Browser: https://github.com/tehnick/freedcpp-unstable-debian/tree/launchpad/debian
 Standards-Version: 3.9.2
 
 Package: freedcpp-unstable
