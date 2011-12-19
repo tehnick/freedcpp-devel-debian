@@ -1,3 +1,9 @@
+freedcpp-unstable (0.0.5.3~svn209-0ppa1~precise1) precise; urgency=low
+
+  * Minor update from SVN trunk branch.
+
+ -- Boris Pek <tehnick-8@mail.ru>  Sat, 10 Dec 2011 17:39:57 +0200
+
 freedcpp-unstable (0.0.5.2~svn207-0ppa1~oneiric1) oneiric; urgency=low
 
   * Minor update from SVN trunk branch.
