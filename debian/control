@@ -17,10 +17,9 @@ Architecture: any
 Depends: ${shlibs:Depends}, ${misc:Depends}
 Replaces: freedcpp, linuxdcpp
 Conflicts: freedcpp, linuxdcpp
-Description: FreeDC++ is DC++ client based on LinuxDC++ source code
+Description: DC++ client based on LinuxDC++ source code
  FreeDC++ is a program for UNIX-like systems that uses the Direct Connect
- and ADC protocol. It is compatible with other DC clients, such as the original
- DC from Neomodus, DC++ and derivatives. FreeDC++ also interoperates with
- all common DC hub software.
+ and ADC protocols. It is compatible with DC++, LinuxDC++, EiskaltDC++ and
+ other DC/ADC software.
  .
- (This is daily builds of the FreeDC++ packages)
+ (This is daily build of the FreeDC++ packages)
