@@ -8,6 +8,7 @@ override_dh_auto_build:
 
 override_dh_auto_clean:
 	dh_auto_clean
+	rm -rf build freedcpp
 
 override_dh_auto_install:
 	scons release=1 install
