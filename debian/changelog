@@ -1,3 +1,9 @@
+freedcpp (0.0.5-0ppa3~trusty1) trusty; urgency=medium
+
+  * Some fixes in package.
+
+ -- Boris Pek <tehnick@debian.org>  Tue, 25 Feb 2014 15:21:30 +0400
+
 freedcpp (0.0.5-0ppa2~oneiric1) oneiric; urgency=low
 
   * Some fixes in package.
