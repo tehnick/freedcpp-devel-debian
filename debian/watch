@@ -1,2 +1,2 @@
-version=3
-http://ppa.launchpad.net/tehnick/tehnick/ubuntu/pool/main/f/freedcpp/ .*freedcpp_(.+)\.orig\.tar\.bz2 debian uupdate
+# Tarballs with sources are not available for this project.
+# For getting sources use: https://freedcpp.googlecode.com/svn/tags/

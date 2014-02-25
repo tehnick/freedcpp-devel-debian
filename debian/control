@@ -1,22 +1,22 @@
 Source: freedcpp
 Section: net
 Priority: optional
-Maintainer: Boris Pek <tehnick-8@mail.ru>
-Build-Depends: debhelper (>= 6.0.4), cdbs (>= 0.4.27), scons (>= 0.96), pkg-config,
- libgtk2.0-dev, libglade2-dev, libgnome2-dev, libnotify-dev,
- libbz2-dev, libssl-dev, libboost-dev
+Maintainer: Boris Pek <tehnick@debian.org>
+Build-Depends: debhelper (>= 9), scons, pkg-config,
+ libbz2-dev, libssl-dev,  libboost-dev,
+ libgtk2.0-dev, libglade2-dev,
+ libgnome2-dev, libnotify-dev
 Homepage: http://code.google.com/p/freedcpp/
 Vcs-Git: git://github.com/tehnick/freedcpp-debian.git
-Vcs-Browser: https://github.com/tehnick/freedcpp-debian/tree/launchpad/debian
-Standards-Version: 3.9.3
+Vcs-Browser: https://github.com/tehnick/freedcpp-debian
+Standards-Version: 3.9.5
 
 Package: freedcpp
 Architecture: any
 Depends: ${shlibs:Depends}, ${misc:Depends}
 Replaces: freedcpp-unstable, linuxdcpp
 Conflicts: freedcpp-unstable, linuxdcpp
-Description: FreeDC++ is DC++ client based on LinuxDC++ source code
+Description: DC++ client based on LinuxDC++ source code
  FreeDC++ is a program for UNIX-like systems that uses the Direct Connect
- and ADC protocol. It is compatible with other DC clients, such as the original
- DC from Neomodus, DC++ and derivatives. FreeDC++ also interoperates with
- all common DC hub software.
+ and ADC protocols. It is compatible with DC++, LinuxDC++, EiskaltDC++ and
+ other DC/ADC software.
