@@ -1,3 +1,9 @@
+freedcpp-unstable (0.0.5.3~svn209-0ppa2~trusty1) trusty; urgency=medium
+
+  * Some fixes in package.
+
+ -- Boris Pek <tehnick@debian.org>  Tue, 25 Feb 2014 14:40:02 +0400
+
 freedcpp-unstable (0.0.5.3~svn209-0ppa1~precise1) precise; urgency=low
 
   * Minor update from SVN trunk branch.
