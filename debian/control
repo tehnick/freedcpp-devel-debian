@@ -2,10 +2,16 @@ Source: freedcpp
 Section: net
 Priority: optional
 Maintainer: Boris Pek <tehnick@debian.org>
-Build-Depends: debhelper (>= 9), scons, pkg-config,
- libbz2-dev, libssl-dev,  libboost-dev,
- libgtk2.0-dev, libglade2-dev,
- libgnome2-dev, libnotify-dev
+Build-Depends: debhelper (>= 9),
+               libboost-dev,
+               libbz2-dev,
+               libglade2-dev,
+               libgnome2-dev,
+               libgtk2.0-dev,
+               libnotify-dev,
+               libssl-dev,
+               pkg-config,
+               scons
 Homepage: http://code.google.com/p/freedcpp/
 Vcs-Git: git://github.com/tehnick/freedcpp-debian.git
 Vcs-Browser: https://github.com/tehnick/freedcpp-debian
@@ -13,7 +19,7 @@ Standards-Version: 3.9.6
 
 Package: freedcpp
 Architecture: any
-Depends: ${shlibs:Depends}, ${misc:Depends}
+Depends: ${misc:Depends}, ${shlibs:Depends}
 Replaces: freedcpp-unstable, linuxdcpp
 Conflicts: freedcpp-unstable, linuxdcpp
 Description: DC++ client based on LinuxDC++ source code

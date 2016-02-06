@@ -12,7 +12,7 @@ License: GPL-2+ with OpenSSL exception
 Files: dcpp/*
 Copyright: 2001-2010 Jacek Sieka <arnetheduck@gmail.com>
 License: GPL-2+
- 
+
 Files: linux/*
 Copyright: 2009-2010 troll (http://code.google.com/p/freedcpp)
  2009 Leliksan Floyd <leliksan@Quadrafon2>
