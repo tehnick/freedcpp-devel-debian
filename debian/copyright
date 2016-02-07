@@ -2,8 +2,10 @@ Format: http://www.debian.org/doc/packaging-manuals/copyright-format/1.0/
 Debianized-By: Boris Pek <tehnick-8@mail.ru>
 Debianized-Date: Sat, 05 Dec 2009 16:09:10 +0300
 Upstream-Name: FreeDC++
-Upstream-Contact: troll (http://code.google.com/p/freedcpp/)
-Source: https://freedcpp.googlecode.com/svn/tags/
+Upstream-Contact: troll <freedcpp@narod.ru>
+Source: https://github.com/eiskaltdcpp/freedcpp/tags
+ The orig.tar.gz is just renamed upstream tarball (without changes).
+ See section get-orig-source in debian/rules file for details.
 
 Files: *
 Copyright: 2004-2010 by authors listed in Credits.txt
@@ -14,7 +16,7 @@ Copyright: 2001-2010 Jacek Sieka <arnetheduck@gmail.com>
 License: GPL-2+
 
 Files: linux/*
-Copyright: 2009-2010 troll (http://code.google.com/p/freedcpp)
+Copyright: 2009-2010 troll <freedcpp@narod.ru>
  2009 Leliksan Floyd <leliksan@Quadrafon2>
  2004-2010 Jens Oknelid <paskharen@gmail.com>
  2003 Bastien Nocera <hadess@hadess.net>
@@ -25,7 +27,7 @@ Copyright: 2005-2010 Thomas Bernard (http://miniupnp.free.fr/)
 License: BSD-3-clause
 
 Files: debian/*
-Copyright: 2010-2014 Boris Pek <tehnick-8@mail.ru>
+Copyright: 2010-2016 Boris Pek <tehnick-8@mail.ru>
 License: GPL-2+
 
 License: GPL-2+
