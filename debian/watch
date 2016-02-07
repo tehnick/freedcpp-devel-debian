@@ -1,2 +1,4 @@
-# Tarballs with sources are not available for this project.
-# For getting sources use: https://freedcpp.googlecode.com/svn/tags/
+version=3
+https://github.com/eiskaltdcpp/freedcpp/tags \
+.*/archive/v(\d.+)\.tar\.gz \
+debian uupdate
