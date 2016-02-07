@@ -12,7 +12,7 @@ Build-Depends: debhelper (>= 9),
                libssl-dev,
                pkg-config,
                scons
-Homepage: http://code.google.com/p/freedcpp/
+Homepage: https://github.com/eiskaltdcpp/freedcpp
 Vcs-Git: https://github.com/tehnick/freedcpp-debian.git
 Vcs-Browser: https://github.com/tehnick/freedcpp-debian
 Standards-Version: 3.9.6
