@@ -20,8 +20,8 @@ Standards-Version: 3.9.6
 Package: freedcpp
 Architecture: any
 Depends: ${misc:Depends}, ${shlibs:Depends}
-Replaces: freedcpp-unstable, linuxdcpp
-Conflicts: freedcpp-unstable, linuxdcpp
+Replaces: linuxdcpp
+Conflicts: linuxdcpp
 Description: DC++ client based on LinuxDC++ source code
  FreeDC++ is a program for UNIX-like systems that uses the Direct Connect
  and ADC protocols. It is compatible with DC++, LinuxDC++, EiskaltDC++,
