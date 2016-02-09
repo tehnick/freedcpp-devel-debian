@@ -20,6 +20,7 @@ Standards-Version: 3.9.6
 Package: freedcpp
 Architecture: any
 Depends: ${misc:Depends}, ${shlibs:Depends}
+Recommends: freedcpp-mediapack
 Replaces: linuxdcpp
 Conflicts: linuxdcpp
 Description: DC++ client based on LinuxDC++ source code
