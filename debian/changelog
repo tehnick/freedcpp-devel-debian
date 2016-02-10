@@ -1,4 +1,12 @@
-freedcpp-devel (0.0.5-0ppa4~xenial1) xenial; urgency=medium
+freedcpp-devel (0.0.5-3-g9f9db66-0ppa1~xenial1) xenial; urgency=medium
+
+  * New Git snapshot.
+  * Sync with stable freedcpp package.
+  * Clean changelog.
+
+ -- Boris Pek <tehnick@debian.org>  Thu, 11 Feb 2016 00:56:54 +0300
+
+freedcpp (0.0.5-0ppa4~xenial1) xenial; urgency=medium
 
   * Bump Standards-Version to 3.9.6 (was 3.9.5): no changes required.
   * Update debian/control:
