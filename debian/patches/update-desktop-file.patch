@@ -1,0 +1,33 @@
+From 869fb223d197ea9d7b00b939a5f950d29d29498d Mon Sep 17 00:00:00 2001
+From: Boris Pek <tehnick-8@yandex.ru>
+Date: Sun, 19 Aug 2018 15:14:16 +0300
+Subject: [PATCH] Update desktop file.
+
+---
+ freedcpp.desktop | 5 +++--
+ 1 file changed, 3 insertions(+), 2 deletions(-)
+
+diff --git a/freedcpp.desktop b/freedcpp.desktop
+index c9a8324..ee3cc39 100644
+--- a/freedcpp.desktop
++++ b/freedcpp.desktop
+@@ -1,12 +1,13 @@
+ [Desktop Entry]
+-Encoding=UTF-8
+ Type=Application
+-Exec=freedcpp
++Exec=freedcpp %U
+ Icon=freedcpp
+ Terminal=false
+-Categories=GTK;P2P;Network;FileTransfer;
+ Name=FreeDC++
+ GenericName=DC++ Client
+ GenericName[ru]=Клиент DC++
+ Comment=DC++ Client
+ Comment[ru]=Клиент DC++
++Categories=GTK;P2P;Network;FileTransfer;
++Keywords=FileSharing;Chat;p2p;DirectConnect;ADC;DHT;
++MimeType=x-scheme-handler/magnet;x-scheme-handler/dchub;x-scheme-handler/adc;x-scheme-handler/adcs;
+-- 
+2.18.0
+

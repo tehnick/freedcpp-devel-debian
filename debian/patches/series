@@ -1,0 +1,4 @@
+fix-build-with-GCC-8.x.patch
+add-compatibility-with-OpenSSL-1.1.0.patch
+add-support-of-TLS-1.2.patch
+update-desktop-file.patch

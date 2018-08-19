@@ -1,0 +1,25 @@
+From 7209834756af273b05fd3f2c7e016db57846d562 Mon Sep 17 00:00:00 2001
+From: Boris Pek <tehnick-8@yandex.ru>
+Date: Sun, 19 Aug 2018 14:32:09 +0300
+Subject: [PATCH 1/4] Core: fix build with GCC 8.x.
+
+---
+ dcpp/BufferedSocket.cpp | 2 +-
+ 1 file changed, 1 insertion(+), 1 deletion(-)
+
+diff --git a/dcpp/BufferedSocket.cpp b/dcpp/BufferedSocket.cpp
+index 6f6fafc..42461de 100644
+--- a/dcpp/BufferedSocket.cpp
++++ b/dcpp/BufferedSocket.cpp
+@@ -509,7 +509,7 @@ void BufferedSocket::shutdown() {
+ 
+ void BufferedSocket::addTask(Tasks task, TaskData* data) {
+ 	dcassert(task == DISCONNECT || task == SHUTDOWN || task == UPDATED || sock.get());
+-	tasks.push_back(make_pair(task, data)); taskSem.signal();
++	tasks.push_back(make_pair(task, unique_ptr<TaskData>(data))); taskSem.signal();
+ }
+ 
+ } // namespace dcpp
+-- 
+2.18.0
+
