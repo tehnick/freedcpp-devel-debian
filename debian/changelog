@@ -1,3 +1,20 @@
+freedcpp (0.0.5-0ppa5~cosmic1) cosmic; urgency=medium
+
+  * Add patches:
+    - fix-build-with-GCC-8.x
+    - add-compatibility-with-OpenSSL-1.1.0
+    - add-support-of-TLS-1.2
+    - update-desktop-file
+  * Update debian/control:
+    - bump Standards-Version to 4.2.0 (was 3.9.6): no changes required
+    - add freedcpp-mediapack to Recommends of binary package
+  * Update debian/copyright:
+    - use https URL in Format field
+    - update emails and years
+  * Fix lintian note file-contains-trailing-whitespace.
+
+ -- Boris Pek <tehnick@debian.org>  Sun, 19 Aug 2018 16:01:30 +0300
+
 freedcpp (0.0.5-0ppa4~xenial1) xenial; urgency=medium
 
   * Bump Standards-Version to 3.9.6 (was 3.9.5): no changes required.
