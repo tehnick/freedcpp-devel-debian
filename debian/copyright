@@ -1,5 +1,5 @@
-Format: http://www.debian.org/doc/packaging-manuals/copyright-format/1.0/
-Debianized-By: Boris Pek <tehnick-8@mail.ru>
+Format: https://www.debian.org/doc/packaging-manuals/copyright-format/1.0/
+Debianized-By: Boris Pek <tehnick-8@yandex.ru>
 Debianized-Date: Sat, 05 Dec 2009 16:09:10 +0300
 Upstream-Name: FreeDC++
 Upstream-Contact: troll <freedcpp@narod.ru>
@@ -27,7 +27,7 @@ Copyright: 2005-2010 Thomas Bernard (http://miniupnp.free.fr/)
 License: BSD-3-clause
 
 Files: debian/*
-Copyright: 2010-2016 Boris Pek <tehnick-8@mail.ru>
+Copyright: 2010-2018 Boris Pek <tehnick-8@yandex.ru>
 License: GPL-2+
 
 License: GPL-2+

@@ -1,10 +1,19 @@
-freedcpp-devel (0.0.5-3-g9f9db66-0ppa1~xenial1) xenial; urgency=medium
+freedcpp-devel (0.0.5-0ppa5~cosmic1) cosmic; urgency=medium
 
-  * New Git snapshot.
-  * Sync with stable freedcpp package.
-  * Clean changelog.
+  * Add patches:
+    - fix-build-with-GCC-8.x
+    - add-compatibility-with-OpenSSL-1.1.0
+    - add-support-of-TLS-1.2
+    - update-desktop-file
+  * Update debian/control:
+    - bump Standards-Version to 4.2.0 (was 3.9.6): no changes required
+    - add freedcpp-mediapack to Recommends of binary package
+  * Update debian/copyright:
+    - use https URL in Format field
+    - update emails and years
+  * Fix lintian note file-contains-trailing-whitespace.
 
- -- Boris Pek <tehnick@debian.org>  Thu, 11 Feb 2016 00:56:54 +0300
+ -- Boris Pek <tehnick@debian.org>  Sun, 19 Aug 2018 16:01:30 +0300
 
 freedcpp (0.0.5-0ppa4~xenial1) xenial; urgency=medium
 
@@ -479,4 +488,3 @@ freedcpp (0.0.1~svn45-1) unstable; urgency=low
   * Initial release.
 
  -- Boris Pek <tehnick-8@mail.ru>  Sat, 05 Dec 2009 16:09:10 +0300
-

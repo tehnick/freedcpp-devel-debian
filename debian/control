@@ -15,7 +15,7 @@ Build-Depends: debhelper (>= 9),
 Homepage: https://github.com/eiskaltdcpp/freedcpp
 Vcs-Git: https://github.com/tehnick/freedcpp-debian.git
 Vcs-Browser: https://github.com/tehnick/freedcpp-debian
-Standards-Version: 3.9.6
+Standards-Version: 4.2.0
 
 Package: freedcpp
 Architecture: any

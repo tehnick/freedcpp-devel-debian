@@ -12,4 +12,4 @@ override_dh_auto_clean:
 
 override_dh_auto_install:
 	scons release=1 install
-
+	rm -rf $(CURDIR)/debian/freedcpp/usr/share/doc/freedcpp/
