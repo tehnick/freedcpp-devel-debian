@@ -1,3 +1,11 @@
+freedcpp-devel (0.0.5-9-g8e8f8e6-0ppa1~cosmic1) cosmic; urgency=medium
+
+  * New Git snapshot.
+  * Sync with stable freedcpp package.
+  * Clean changelog.
+
+ -- Boris Pek <tehnick@debian.org>  Sun, 19 Aug 2018 17:12:25 +0300
+
 freedcpp-devel (0.0.5-0ppa5~cosmic1) cosmic; urgency=medium
 
   * Add patches:
