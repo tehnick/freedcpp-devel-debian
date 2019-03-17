@@ -1,3 +1,13 @@
+freedcpp-devel (0.0.5-9-g8e8f8e6-0ppa2~disco1) disco; urgency=medium
+
+  * Bump Standards-Version to 4.3.0 (was 4.2.0): no changes required.
+  * Update package description in debian/control.
+  * Update years in debian/copyright.
+  * Update man page.
+  * Add debian/upstream/metadata.
+
+ -- Boris Pek <tehnick@debian.org>  Sun, 17 Mar 2019 23:58:12 +0300
+
 freedcpp-devel (0.0.5-9-g8e8f8e6-0ppa1~cosmic1) cosmic; urgency=medium
 
   * New Git snapshot.
