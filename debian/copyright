@@ -2,10 +2,9 @@ Format: https://www.debian.org/doc/packaging-manuals/copyright-format/1.0/
 Debianized-By: Boris Pek <tehnick-8@yandex.ru>
 Debianized-Date: Sat, 05 Dec 2009 16:09:10 +0300
 Upstream-Name: FreeDC++
-Upstream-Contact: troll <freedcpp@narod.ru>
+Upstream-Contact: Boris Pek <tehnick-8@yandex.ru>
 Source: https://github.com/eiskaltdcpp/freedcpp/tags
  The orig.tar.gz is just renamed upstream tarball (without changes).
- See section get-orig-source in debian/rules file for details.
 
 Files: *
 Copyright: 2004-2010 by authors listed in Credits.txt
