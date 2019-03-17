@@ -1,3 +1,9 @@
+freedcpp-devel (0.0.5-15-g0130cb3-0ppa1~disco1) disco; urgency=medium
+
+  * New Git snapshot.
+
+ -- Boris Pek <tehnick@debian.org>  Mon, 18 Mar 2019 02:21:06 +0300
+
 freedcpp-devel (0.0.5-11-g7a959e2-0ppa1~disco1) disco; urgency=medium
 
   * New Git snapshot.
