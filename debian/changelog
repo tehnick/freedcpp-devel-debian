@@ -1,3 +1,12 @@
+freedcpp-devel (0.0.5-11-g7a959e2-0ppa1~disco1) disco; urgency=medium
+
+  * New Git snapshot.
+  * Update debian/copyright.
+  * Update debian/rules:
+    enable all hardening flags in compiler options.
+
+ -- Boris Pek <tehnick@debian.org>  Mon, 18 Mar 2019 01:07:28 +0300
+
 freedcpp-devel (0.0.5-9-g8e8f8e6-0ppa2~disco1) disco; urgency=medium
 
   * Bump Standards-Version to 4.3.0 (was 4.2.0): no changes required.
