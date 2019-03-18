@@ -1,3 +1,10 @@
+freedcpp-devel (0.0.5-20-g276c5d0-0ppa1~disco1) disco; urgency=medium
+
+  * New Git snapshot.
+  * Delete debian/docs.
+
+ -- Boris Pek <tehnick@debian.org>  Mon, 18 Mar 2019 22:08:46 +0300
+
 freedcpp-devel (0.0.5-15-g0130cb3-0ppa1~disco1) disco; urgency=medium
 
   * New Git snapshot.
