@@ -14,8 +14,8 @@ Build-Depends: debhelper (>= 9),
                pkg-config,
                scons
 Homepage: https://github.com/eiskaltdcpp/freedcpp
-Vcs-Git: https://github.com/tehnick/freedcpp-debian.git
-Vcs-Browser: https://github.com/tehnick/freedcpp-debian
+Vcs-Git: https://github.com/tehnick/freedcpp-devel-debian.git
+Vcs-Browser: https://github.com/tehnick/freedcpp-devel-debian
 Standards-Version: 4.3.0
 
 Package: freedcpp
