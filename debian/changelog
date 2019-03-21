@@ -1,70 +1,26 @@
 freedcpp-devel (0.1.0-0ppa1~disco1) disco; urgency=medium
 
-  * New Git snapshot.
-
- -- Boris Pek <tehnick@debian.org>  Thu, 21 Mar 2019 02:33:59 +0300
-
-freedcpp-devel (0.0.5-24-gde0d059-0ppa1~disco1) disco; urgency=medium
-
-  * New Git snapshot.
-
- -- Boris Pek <tehnick@debian.org>  Wed, 20 Mar 2019 00:59:56 +0300
-
-freedcpp-devel (0.0.5-23-g008925e-0ppa1~disco1) disco; urgency=medium
-
-  * New Git snapshot.
-  * Add build dependency from libminiupnpc-dev.
-  * Update debian/copyright.
-
- -- Boris Pek <tehnick@debian.org>  Wed, 20 Mar 2019 00:18:35 +0300
-
-freedcpp-devel (0.0.5-21-g2807a65-0ppa1~disco1) disco; urgency=medium
-
-  * New Git snapshot.
-
- -- Boris Pek <tehnick@debian.org>  Tue, 19 Mar 2019 00:11:08 +0300
-
-freedcpp-devel (0.0.5-20-g276c5d0-0ppa1~disco1) disco; urgency=medium
-
-  * New Git snapshot.
-  * Delete debian/docs.
-
- -- Boris Pek <tehnick@debian.org>  Mon, 18 Mar 2019 22:08:46 +0300
-
-freedcpp-devel (0.0.5-15-g0130cb3-0ppa1~disco1) disco; urgency=medium
-
-  * New Git snapshot.
-
- -- Boris Pek <tehnick@debian.org>  Mon, 18 Mar 2019 02:21:06 +0300
-
-freedcpp-devel (0.0.5-11-g7a959e2-0ppa1~disco1) disco; urgency=medium
-
-  * New Git snapshot.
-  * Update debian/copyright.
-  * Update debian/rules:
-    enable all hardening flags in compiler options.
-
- -- Boris Pek <tehnick@debian.org>  Mon, 18 Mar 2019 01:07:28 +0300
-
-freedcpp-devel (0.0.5-9-g8e8f8e6-0ppa2~disco1) disco; urgency=medium
-
-  * Bump Standards-Version to 4.3.0 (was 4.2.0): no changes required.
-  * Update package description in debian/control.
-  * Update years in debian/copyright.
+  * New stable release.
+  * Delete all patches: already in upstream.
+  * Update debian/control:
+    - bump Standards-Version to 4.3.0 (was 4.2.0): no changes required
+    - add build dependency from libminiupnpc-dev
+    - update package description
+  * Update debian/rules: enable all hardening flags in compiler options.
+  * Update debian/watch.
   * Update man page.
+  * Delete debian/docs.
   * Add debian/upstream/metadata.
 
- -- Boris Pek <tehnick@debian.org>  Sun, 17 Mar 2019 23:58:12 +0300
+ -- Boris Pek <tehnick@debian.org>  Thu, 21 Mar 2019 02:42:40 +0300
 
-freedcpp-devel (0.0.5-9-g8e8f8e6-0ppa1~cosmic1) cosmic; urgency=medium
+freedcpp (0.0.5-0ppa6~cosmic1) cosmic; urgency=medium
 
-  * New Git snapshot.
-  * Sync with stable freedcpp package.
-  * Clean changelog.
+  * Update patch fix-build-with-GCC-8.x: fix build with GCC <= 6.x.
 
- -- Boris Pek <tehnick@debian.org>  Sun, 19 Aug 2018 17:12:25 +0300
+ -- Boris Pek <tehnick@debian.org>  Sun, 19 Aug 2018 17:02:44 +0300
 
-freedcpp-devel (0.0.5-0ppa5~cosmic1) cosmic; urgency=medium
+freedcpp (0.0.5-0ppa5~cosmic1) cosmic; urgency=medium
 
   * Add patches:
     - fix-build-with-GCC-8.x
