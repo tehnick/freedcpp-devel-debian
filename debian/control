@@ -5,8 +5,8 @@ Maintainer: Boris Pek <tehnick@debian.org>
 Build-Depends: debhelper (>= 9),
                libboost-dev,
                libbz2-dev,
+               libcanberra-gtk-dev,
                libglade2-dev,
-               libgnome2-dev,
                libgtk2.0-dev,
                libminiupnpc-dev,
                libnotify-dev,
@@ -16,7 +16,8 @@ Build-Depends: debhelper (>= 9),
 Homepage: https://github.com/eiskaltdcpp/freedcpp
 Vcs-Git: https://github.com/tehnick/freedcpp-devel-debian.git
 Vcs-Browser: https://github.com/tehnick/freedcpp-devel-debian
-Standards-Version: 4.3.0
+Standards-Version: 4.4.1
+Rules-Requires-Root: no
 
 Package: freedcpp
 Architecture: any
@@ -27,7 +28,7 @@ Conflicts: linuxdcpp
 Description: file sharing program using DC and ADC protocols
  FreeDC++ is a program for UNIX-like systems that uses the Direct Connect and
  Advanced Direct Connect protocols. It is compatible with DC++, EiskaltDC++,
- FlylinkDC++, LinuxDC++ and other DC clients. FreeDC++ also interoperates with
+ AirDC++, FlylinkDC++ and other DC clients. FreeDC++ also interoperates with
  all common DC hub software.
  .
  FreeDC++ is based on LinuxDC++ source code, but now it noticeably differs
