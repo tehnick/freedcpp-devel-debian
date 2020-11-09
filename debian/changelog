@@ -1,3 +1,9 @@
+freedcpp-devel (0.1.2-0ppa1~hirsute1) hirsute; urgency=medium
+
+  * New stable release.
+
+ -- Boris Pek <tehnick@debian.org>  Tue, 10 Nov 2020 02:19:28 +0300
+
 freedcpp-devel (0.1.1+4+ge116deb-0ppa1~hirsute1) hirsute; urgency=medium
 
   * New Git snapshot.
