@@ -1,3 +1,9 @@
+freedcpp-devel (0.1.2-0ppa2~hirsute1) hirsute; urgency=medium
+
+  * Update debian/control.
+
+ -- Boris Pek <tehnick@debian.org>  Tue, 16 Feb 2021 03:21:26 +0300
+
 freedcpp-devel (0.1.2-0ppa1~hirsute1) hirsute; urgency=medium
 
   * New stable release.
