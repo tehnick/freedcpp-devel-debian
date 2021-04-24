@@ -1,4 +1,4 @@
 version=4
 https://github.com/eiskaltdcpp/freedcpp/tags \
-.*/archive/freedcpp-(\d.+)\.tar\.gz \
+.*/archive/refs/tags/freedcpp-(\d.+)\.tar\.gz \
 debian uupdate
