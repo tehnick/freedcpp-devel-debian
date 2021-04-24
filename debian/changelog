@@ -1,3 +1,11 @@
+freedcpp-devel (0.1.2-0ppa3~impish1) impish; urgency=medium
+
+  * Update debian/control, debian/rules and debian/watch.
+  * Update years in debian/copyright.
+  * Remove debian/compat.
+
+ -- Boris Pek <tehnick@debian.org>  Sun, 25 Apr 2021 01:55:30 +0300
+
 freedcpp-devel (0.1.2-0ppa2~hirsute1) hirsute; urgency=medium
 
   * Update debian/control.
