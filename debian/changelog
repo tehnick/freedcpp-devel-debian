@@ -1,3 +1,10 @@
+freedcpp-devel (0.1.2+2+g85f9be2-0ppa1~kinetic1) kinetic; urgency=medium
+
+  * New Git snapshot.
+  * Update debian/control and debian/copyright.
+
+ -- Boris Pek <tehnick@debian.org>  Sat, 28 May 2022 03:31:46 +0300
+
 freedcpp-devel (0.1.2-0ppa3~impish1) impish; urgency=medium
 
   * Update debian/control, debian/rules and debian/watch.
