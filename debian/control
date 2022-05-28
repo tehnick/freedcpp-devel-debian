@@ -16,7 +16,7 @@ Build-Depends: debhelper-compat (= 11),
 Homepage: https://github.com/eiskaltdcpp/freedcpp
 Vcs-Git: https://github.com/tehnick/freedcpp-devel-debian.git
 Vcs-Browser: https://github.com/tehnick/freedcpp-devel-debian
-Standards-Version: 4.5.1
+Standards-Version: 4.6.0
 Rules-Requires-Root: no
 
 Package: freedcpp
